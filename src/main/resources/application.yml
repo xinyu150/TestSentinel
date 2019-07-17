@@ -1,0 +1,12 @@
+server:
+  port: 8081
+  
+spring: 
+  application: 
+    name: testSentinel
+  cloud: 
+    sentinel: 
+      eager: true
+      transport: 
+        port: 8721
+        dashboard: localhost:8858
