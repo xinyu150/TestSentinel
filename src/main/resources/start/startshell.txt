@@ -1,0 +1,4 @@
+启动sentinel 控制板
+alt + shift + W 打开所选目录/文件的本地目录
+java -Dserver.port=8858 -Dcsp.sentinel.dashboard.server=localhost:8858 -Dproject.name=sentinel-dashboard -jar sentinel-dashboard.jar
+# java -Dserver.port=8858 -jar sentinel-dashboard.jar
